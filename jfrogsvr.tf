@@ -9,6 +9,6 @@ resource "aws_instance" "jfrog" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "tutor-jfrog-svr"
+    Name = "sandbox8-jfrog-svr"
   }
 }
