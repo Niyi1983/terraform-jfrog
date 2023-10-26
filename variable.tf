@@ -11,7 +11,7 @@ variable "security_group_id" {
 
 variable "public_subnet_id" {
   type    = string
-  default = "ssubnet-006ef8b2ee8ece62b" # Replace with the actual public subnet ID of your jenkins public subnet
+  default = "subnet-006ef8b2ee8ece62b" # Replace with the actual public subnet ID of your jenkins public subnet
 }
 
 variable "aws_region" {
